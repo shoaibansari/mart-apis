@@ -41,7 +41,7 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', '127.0.0.1:3306'),
+            'host' => env('DB_HOST', '198.23.59.119'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'armancom_appdb'),
             'username' => env('DB_USERNAME', 'armancom_appuser'),
