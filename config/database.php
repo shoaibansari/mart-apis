@@ -41,7 +41,7 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'www.extralicio.us'),
+            'host' => env('DB_HOST', 'http://extralicio.us'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'armancom_appdb'),
             'username' => env('DB_USERNAME', 'armancom_appuser'),
